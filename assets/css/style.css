@@ -1,0 +1,147 @@
+a {
+  text-decoration: none;
+}
+
+p, h1, h2, h3, h4, h5, h6, body {
+  margin: 0;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+}
+
+input[type=text] {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.btn.orange {
+  color: #FF3D00;
+  border: 1px solid #FF3D00;
+  font-family: "Montserrat";
+  font-weight: 900;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.5s;
+}
+.btn.orange:hover {
+  color: #fff;
+  background-color: #FF3D00;
+  cursor: pointer;
+}
+.btn.blue {
+  color: #0085FF;
+  border: 1px solid #0085FF;
+  font-family: "Montserrat";
+  font-weight: 900;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.5s;
+}
+.btn.blue:hover {
+  color: #fff;
+  background-color: #0085FF;
+  cursor: pointer;
+}
+.btn.white {
+  color: #fff;
+  border: 1px solid #fff;
+  font-family: "Montserrat";
+  font-weight: 900;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.5s;
+}
+.btn.white:hover {
+  color: #fff;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+h1.h2.h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+h4 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+body {
+  padding: 0 16px;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 0;
+}
+body header .burger-menu {
+  transition: 0.5s;
+  padding: 6px;
+  border-radius: 5px;
+}
+body header .burger-menu:hover {
+  background-color: rgba(247, 68, 98, 0.2);
+  cursor: pointer;
+}
+body header .burger-menu .line {
+  width: 18px;
+  height: 2px;
+  background-color: #202020;
+  margin-bottom: 4px;
+}
+body header .burger-menu .line:last-child {
+  margin-bottom: 0;
+}
+body header a h1 {
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+body header a h1.active {
+  color: #EF5DA8;
+}
+body header a h1:hover {
+  color: #0085FF;
+  cursor: pointer;
+}
+body header svg:first-child {
+  margin-right: 20px;
+}
+body header svg path {
+  transition: 0.5s;
+}
+body header svg path:hover {
+  fill: #FF3D00;
+  stroke: #FF3D00;
+}
+
+/*# sourceMappingURL=style.css.map */
